@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div id="forma">
+        <div id="kolona-levo">
+            <div id="deo">
+                <label for="ocena">Ocena:</label>
+                <input type="number" id="ocena">
+            </div>
+            <br>
+            <div id="deo">
+                <label for="brojIndeksa">Broj indeksa:</label>
+                <input type="text" id="brojIndeksa">
+            </div>
+            <br>
+            <div id="deo">
+                <label for="redniBrojIzlzaska">Redni broj izlaska na ispit:</label>
+                <select id="redniBrojIzlzaska">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div id="kolona-desno">
+            <div id="deo">
+                <label for="datumIzlaska">Datum izlaska na ispit:</label>
+                <input type="date" id="datumIzlaska">
+            </div>
+            <br>
+            <div id="deo">
+                <label for="rok">Rok:</label>
+                <input type="radio" value="januar" id="januar">
+                <label for="januar">Januar</label>
+                <input type="radio" value="april" id="april">
+                <label for="april">April</label>
+                <input type="radio" value="jun" id="jun">
+                <label for="jun">Jun</label>
+                <input type="radio" value="septembar" id="septembar">
+                <label for="septembar">Septembar</label>
+            </div>
+            <br>
+            <div id="deo"> <input type="checkbox" id="polozio">
+                <label for="polozio">Polozio/la</label>
+            </div>
+
+            <br>
+
+            <button id="posalji">Posalji</button>
+        </div>
+    </div>
+
+
+
+
+
 </body>
+
 </html>
